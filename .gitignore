@@ -1,10 +1,22 @@
-
+# Dependencies
 node_modules/
 
-
+# Environment files
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+**/.env
+config.env
+**/config.env
 
+# Sensitive config
+server/cloudinary.js
+
+# Build folders
+build/
+dist/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
